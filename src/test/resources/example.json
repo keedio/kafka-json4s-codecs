@@ -1,0 +1,189 @@
+{
+                "Version": 0,
+                "MachineId": "045ef960-3898-4fed-9a31-415bf6b748c4",
+                "User": "SYSTEM",
+                "Data": [{
+                               "SampleDate": "2015-06-29T13:52:31.0720519Z",
+                               "Properties": {
+                                               "CPU": {
+                                                               "Value": 49.216667175292969,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0720519Z"
+                                               },
+                                               "UsedRAM": {
+                                                               "Value": 1765.0,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "DiskReadLatency": {
+                                                               "Value": 0.00049166666576638818,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "DiskWriteLatency": {
+                                                               "Value": 0.001764011918567121,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "DiskWriteMBPerSecond": {
+                                                               "Value": 1373674.75,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "DiskReadMBPerSecond": {
+                                                               "Value": 148603.265625,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "LanInformationArray": {
+                                                               "Array": [],
+                                                               "SampleType": 6,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiSignalStrength": {
+                                                               "Value": 0,
+                                                               "SampleType": 3,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiSSID": {
+                                                               "Value": null,
+                                                               "SampleType": 2,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiConnected": {
+                                                               "Value": false,
+                                                               "SampleType": 1,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiIPAddress": {
+                                                               "Value": null,
+                                                               "SampleType": 2,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiProtocol": {
+                                                               "Value": null,
+                                                               "SampleType": 2,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiEncryptionAlgorithm": {
+                                                               "Value": null,
+                                                               "SampleType": 2,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiBytesSent": {
+                                                               "Value": 0.0,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiBytesReceived": {
+                                                               "Value": 0.0,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "WiFiLinkSpeed": {
+                                                               "Value": 0,
+                                                               "SampleType": 4,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "BootTime": {
+                                                               "Value": 236812,
+                                                               "SampleType": 3,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "UpTime": {
+                                                               "Value": "2015-06-29T13:47:24.7870517Z",
+                                                               "SampleType": 11,
+                                                               "TimeStamp": "2015-06-29T13:52:31.0830517Z"
+                                               },
+                                               "Proxy": {
+                                                               "PacFileUrl": null,
+                                                               "ProxyUrl": "",
+                                                               "SampleType": 12,
+                                                               "TimeStamp": "2015-06-29T13:52:31.2020551Z"
+                                               },
+                                               "SharedResourceArray": {
+                                                               "Array": [{
+                                                                              "DriveLetter": "Z:\\",
+                                                                              "ResourceName": "\\\\products\\public",
+                                                                              "ResponseTime": -1,
+                                                                              "SampleType": 7,
+                                                                              "TimeStamp": "2015-06-29T13:52:31.2090562Z"
+                                                               }],
+                                                               "SampleType": 8,
+                                                               "TimeStamp": "2015-06-29T13:52:31.2090562Z"
+                                               },
+                                               "SharedServiceArray": {
+                                                               "Array": [{
+                                                                              "ServiceName": "Internet",
+                                                                              "ServiceUrl": "http://www.santander.com/favicon.ico",
+                                                                              "ResponseTime": 190,
+                                                                              "CorpServiceType": 1,
+                                                                              "SampleType": 9,
+                                                                              "TimeStamp": "2015-06-29T13:52:31.2090562Z"
+                                                               },
+                                                               {
+                                                                              "ServiceName": "Intranet",
+                                                                              "ServiceUrl": "http://www.google.es",
+                                                                              "ResponseTime": 305,
+                                                                              "CorpServiceType": 2,
+                                                                              "SampleType": 9,
+                                                                              "TimeStamp": "2015-06-29T13:52:31.2090562Z"
+                                                               },
+                                                               {
+                                                                              "ServiceName": "Lync",
+                                                                              "ServiceUrl": "http://www.as.com",
+                                                                              "ResponseTime": 662,
+                                                                              "CorpServiceType": 4,
+                                                                              "SampleType": 9,
+                                                                              "TimeStamp": "2015-06-29T13:52:31.2090562Z"
+                                                               },
+                                                               {
+                                                                              "ServiceName": "Exchange",
+                                                                              "ServiceUrl": "https://emea.cloudmail.microsoft.com",
+                                                                              "ResponseTime": 2341,
+                                                                              "CorpServiceType": 3,
+                                                                              "SampleType": 9,
+                                                                              "TimeStamp": "2015-06-29T13:52:31.2090562Z"
+                                                               }],
+                                                               "SampleType": 10,
+                                                               "TimeStamp": "2015-06-29T13:52:31.2090562Z"
+                                               },
+                                               "DnsQueryTime": {
+                                                               "Value": 2,
+                                                               "SampleType": 3,
+                                                               "TimeStamp": "2015-06-29T13:52:31.2090562Z"
+                                               },
+                                               "DcQueryTime": {
+                                                               "DomainController": "TK5-EU-DC-04.europe.corp.microsoft.com",
+                                                               "ResponseTime": 4111,
+                                                               "SampleType": 13,
+                                                               "TimeStamp": "2015-06-29T13:52:14.0124848Z"
+                                               },
+                                               "HealthIndex": {
+                                                               "Value": 52.402542032410807,
+                                                               "SampleType": 0,
+                                                               "TimeStamp": "2015-06-29T13:52:31.2110565Z"
+                                               }
+                               },
+                               "State": 0,
+                               "Message": "El PC va bien",
+                               "ContainsFeedback": true,
+                               "UserMood": "OK"
+                }],
+                "SentOn": "2015-06-29T13:52:31.2110565Z",
+                "InstalledRam": 4093,
+                "Domain": "EUROPE",
+                "ComputerName": "KASPAROV",
+                "OperatingSystemInformation": {
+                               "ProductName": "Windows 8.1 Enterprise",
+                               "EditionID": "Enterprise",
+                               "InstallationType": "Client",
+                               "CurrentVersion": "6.3",
+                               "CurrentType": "Multiprocessor Free",
+                               "CurrentBuild": "9600"
+                },
+                "ProcessorArchitecture": "x64",
+                "ProcessorCapabilities": "Intel(R) Core(TM) i7-2760QM CPU @ 2.40GHz",
+                "KeyboardLanguage": "Spanish",
+                "SystemLanguage": "English (United States)"
+}
