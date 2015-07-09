@@ -1,5 +1,6 @@
 package org.keedio.kafka.serializers;
 
+import kafka.utils.VerifiableProperties;
 import org.json4s.JsonAST;
 import org.keedio.kafka.serializers.exceptions.SerializationException;
 import org.slf4j.Logger;
@@ -14,6 +15,15 @@ import java.io.ObjectOutputStream;
  */
 public class JValueEncoder implements kafka.serializer.Encoder<JsonAST.JValue> {
     private static final Logger LOG = LoggerFactory.getLogger(JValueEncoder.class);
+
+    public JValueEncoder() {
+        super();
+    }
+
+    public JValueEncoder(VerifiableProperties props){
+    }
+
+
 
     public byte[] toBytes(JsonAST.JValue jValue) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
