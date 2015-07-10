@@ -6,7 +6,7 @@
 
     <groupId>org.keedio.kafka.serializers</groupId>
     <artifactId>kafka-json4s-codecs</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>json4s encoder/decoder for kafka</name>
 
     <properties>
