@@ -10,7 +10,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;
 
 /**
- * Created by Luca Rosellini <lrosellini@keedio.com> on 7/7/15.
+ * Kafka JsonAST.JValue Decoder.
+ *
+ * Created by Luca Rosellini lrosellini@keedio.com on 7/7/15.
  */
 public class JValueDecoder implements kafka.serializer.Decoder<JsonAST.JValue>{
     private static final Logger LOG = LoggerFactory.getLogger(JValueDecoder.class);
@@ -22,7 +24,9 @@ public class JValueDecoder implements kafka.serializer.Decoder<JsonAST.JValue>{
     public JValueDecoder(VerifiableProperties props){
     }
 
-
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public JsonAST.JValue fromBytes(byte[] bytes) {
         ByteArrayInputStream bais = new ByteArrayInputStream(bytes);
