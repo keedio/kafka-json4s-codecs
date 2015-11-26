@@ -1,7 +1,9 @@
 package org.keedio.kafka.serializers.exceptions;
 
 /**
- * Created by Luca Rosellini <lrosellini@keedio.com> on 7/7/15.
+ * Exception thrown by the decoder on de-serialization error.
+ *
+ * Created by Luca Rosellini lrosellini@keedio.com on 7/7/15.
  */
 public class DeserializationException extends RuntimeException {
     public DeserializationException() {

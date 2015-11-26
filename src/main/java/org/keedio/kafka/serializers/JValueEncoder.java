@@ -11,7 +11,9 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 /**
- * Created by Luca Rosellini <lrosellini@keedio.com> on 7/7/15.
+ * Kafka JsonAST.JValue Encoder.
+ *
+ * Created by Luca Rosellini lrosellini@keedio.com on 7/7/15.
  */
 public class JValueEncoder implements kafka.serializer.Encoder<JsonAST.JValue> {
     private static final Logger LOG = LoggerFactory.getLogger(JValueEncoder.class);
@@ -23,8 +25,9 @@ public class JValueEncoder implements kafka.serializer.Encoder<JsonAST.JValue> {
     public JValueEncoder(VerifiableProperties props){
     }
 
-
-
+    /**
+     * {@inheritDoc}
+     */
     public byte[] toBytes(JsonAST.JValue jValue) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
 
